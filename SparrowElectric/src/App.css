@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.Header {
+  background-image: linear-gradient(to bottom, rgb(14, 14, 14), rgba(255, 255, 255, 0)), url(src/Assets/Icons/img-hero-banner.jpg);
+  background-repeat: none;
+  width: 100vw;
+  height: 75vh;
+  background-size: cover;
+  /* top: 400 */
+}
+
+.Header--contact {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 7%;
+  /* padding: 0 5%; */
+}
+
+.contact--grouping {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+  padding: 0 5%;
+}
+
+.contact--grouping > div {
+  display: flex;
+  justify-content: space-between,;
+  align-items: center;
+  width: 100%;
+}
+
+.contact--grouping > div > img {
+  margin: 0 5%
+}
+
+.Header--nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  margin: 0 7%;
+}
+
+.Header--nav--top {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2% 0;
+}
+
+.Header--nav-top--subNav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.Header--nav--RequestAQuote {
+  font-size: 1.25rem;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to top, rgb(14, 14, 14), rgb(137, 136, 136));
+  color: rgb(255, 255, 255);
+  border: 1px solid linear-gradient(to top, rgba(14, 14, 14, 0.593), rgb(137, 136, 136));
+  padding: 1% 2%;
+  border-radius: 40px;
+}
+
+.Header--nav--bottom {
+  font-size: .75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #e2e3e2;
+  padding: 1% 2%;
+  border-radius: 40px; 
+}
+
+.Header--nav--bottom > div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+  margin-left: 35%;
+}
+
+.Header--nav--bottom--link {
+  text-decoration: underline;
+}
+
+.Header--nav--bottom--close {
+  float: right;
+}
+
+.Header--banner {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8%;
+}
+
+.Header--banner--top {
+  font-size: 4rem;
+}
+
+.Header--banner--bottom {
+  margin: 1%;
+}
+
+.Body {
+  width: 100vw;
+  height: 80vh;
+  background-color: white;
+}
+
+/* WeCanHelp */
+
+.WeCanHelp--container {
+  
+}
+
+.section1Group1 {
+
+}
+.section1Group2 {
+
+}
+.section1Group3 {
+
+}
+.section1Group4 {
+
+}
+.section1Group5 {
+
+}
+.section1Group6 {
+
+}
+.section1Group7 {
+
+}
