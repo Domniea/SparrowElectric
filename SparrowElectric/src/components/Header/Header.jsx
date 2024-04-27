@@ -1,8 +1,9 @@
 import React from 'react'
 
+import Button from '../Button'
+
 import phone from '../../Assets/Icons/img-icon-Phone.svg'
 import envelope from '../../Assets/Icons/img-icon-Envelope.svg'
-
 import sparrowLogo from '../../Assets/Icons/img-SparrowElectric-Logo-White.svg'
 import arrowRight from '../../Assets/Icons/img-icon-ArrowRight.svg'
 import lightning from '../../Assets/Icons/img-icon-Lightning.svg'

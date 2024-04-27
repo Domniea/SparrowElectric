@@ -4,6 +4,7 @@ import './App.css'
 
 import Header from './components/Header'
 import WeCanHelp from './components/WeCanHelp'
+import DiscoverBenefits from './components/DiscoverBenefits'
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
     <div>
       <Header/>
       <div className='Body'>
-      <WeCanHelp/>  
+      <WeCanHelp/>
+      <DiscoverBenefits/>
       </div>
     </div>
   )
