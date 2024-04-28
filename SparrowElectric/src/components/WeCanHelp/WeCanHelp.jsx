@@ -86,6 +86,7 @@ export default function WeCanHelp() {
           <Button
             title={!toggleDetails ? 'Show More' : 'Show Less'}
             bgColor='#21BA9E'
+            border='white'
             padding='1% 2%'
             onClick={showDescription}
           />
