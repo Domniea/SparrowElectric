@@ -8,6 +8,7 @@ import DiscoverBenefits from './components/DiscoverBenefits'
 import OurServices from './components/OurServices'
 import FAQ from './components/FAQ'
 import GoSolar from './components/GoSolar/GoSolar'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <OurServices />
         <FAQ />
         <GoSolar />
+        <Footer />
       </div>
     </div>
   )
