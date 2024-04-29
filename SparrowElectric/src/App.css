@@ -20,7 +20,7 @@
   margin: 0;
   padding: 0;
   /* font-size: 16px; */
-  font-family: lato-Regular, sans-serif, 'Times New Roman';
+  font-family: lato-Light, sans-serif, 'Times New Roman';
   font-weight: lighter;
   
 }
@@ -45,6 +45,10 @@ h1 {
 
 .headerElement {
   padding: 2% 0;
+}
+
+.font--regular {
+  font-family: Lato-Regular;
 }
 
 .Button {
@@ -77,6 +81,10 @@ h1 {
   width: 100%;
   height: 7%;
   /* padding: 0 5%; */
+}
+
+.contactInfo p {
+  margin: 5% 0;
 }
 
 .contact--grouping {
@@ -306,8 +314,12 @@ h1 {
   color: white
 }
 
+
+
+
+/* --- Our Services --- */
 #OurServices {
-  padding: 5%;
+  padding: 4% 6%;
   font-size: 1.25rem;
 }
 
@@ -315,4 +327,263 @@ h1 {
   font-family: Lato-Bold;
   font-size: 3rem;
   line-height: 180%;
+}
+
+.service > h4 {
+  font-family: Lato-Bold;
+  padding-top: 2%
+}
+
+.service > p {
+  padding: 1% 0;
+  line-height: 150%;
+}
+
+#services--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3% 0
+}
+
+#servicesGridWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 4;
+  gap: 2%;
+}
+
+.serviceImage {
+  height: 70%;
+  width: 100%;
+}
+
+#OurServices--service0 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+#OurServices--service1 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+#OurServices--service2 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+#OurServices--service3 {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+#OurServices--service4 {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+#OurServices--service5 {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+#OurServices--service6 {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+#OurServices--service7 {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4
+}
+
+#OurServices--service8 {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4
+}
+
+#OurServices--service9 {
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+}
+
+
+
+
+/* --- FAQ --- */
+
+#FAQ {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#FAQ--background {
+  /* background-image: url(src/Assets/Icons/img-affordable-energy.jpg); */
+  /* background-size: 100%; */
+  /* background-repeat: none;
+  background-size: contain; */
+  height: 40vh;
+  width: 100%;
+  margin: 1% 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 4% 6%;
+}
+
+#FAQ--group1 {
+  width: 60%;
+  padding: 1% 2% 0 0;
+  margin-top: -5%;
+}
+
+#FAQ--group1 h2 {
+  font-family: Lato-Bold;
+  font-size: 2.5rem;
+  padding: 3% 0
+}
+#FAQ--group1 p {
+  line-height: 180%;
+}
+
+#FAQ--group2 {
+  width:40%;
+  height: 50vh;
+  margin-top:  -14%;
+  padding: 1% 2%;
+  background-color: white;
+  border: 1px solid #e2e3e2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#FAQ--group2 > h5 {
+  font-family: Lato-Bold;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+#FAQ--group2--top  {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+#FAQ--group2--top > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#FAQ--group2--top > div > img {
+  margin: 2%;
+}
+
+#FAQ--group3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#FAQ--group3 > h2 {
+  font-family: Lato-Bold;
+  font-size: 2.5rem;
+}
+
+#FAQ--container {
+  padding: 2%;
+}
+
+.Dropbox {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: center; */
+  width: 60vw;
+  
+  padding: 3%;
+  margin: 2%;
+  border: 1px solid #e2e3e2;
+}
+
+#Dropbox--top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#Dropbox--top > button {
+  margin: 1%;
+  background-color: white;
+  border: none;
+}
+
+#Dropbox--top > h2 {
+  font-family: Lato-Bold;
+  width: 100%;
+  margin: 1%;
+}
+
+/* .divider {
+  border: 1px solid #e2e3e2;
+  margin:  0 10%;
+  width: 80%;
+  height: 1px;
+
+} */
+
+.dropData--container > p {
+  width: 100%;
+  /* margin: 0 2%; */
+  line-height: 180%;
+}
+
+
+
+
+/* --- Go Solar --- */
+
+.GoSolar {
+  background-image: url(src/Assets/Icons/img-final-cta-background.jpg);
+  background-size: cover;
+  background-repeat: none;
+  width: 100vw;
+  height: 30vh;
+  padding: 4% 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#GoSolar--left > h2{
+  font-family: Lato-Bold;
+  font-size: 2.5rem;
+  color: white;
+  width: 100%;
+  margin: 1% 0;
+}
+
+#GoSolar--left > p {
+  color: white;
+  width: 90%
+}
+
+#GoSolar--right {
+  width: 15%;
+}
+#GoSolar--right > button {
+  width: 100%;
+  padding: 1%
 }

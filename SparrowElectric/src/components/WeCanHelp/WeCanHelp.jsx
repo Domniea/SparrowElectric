@@ -16,14 +16,14 @@ export default function WeCanHelp() {
 
   return (
     <div id='WeCanHelp--root'>
-      <h3 id='WeCanHelp--nav' > Home / Who We Help</h3>
+      <h3 id='WeCanHelp--nav' > Home / <span className='font--regular' >Who We Help</span></h3>
       <div className='WeCanHelp--container--primary'>
         <div id='section1Group1' className='centered'>
           <h1 className='headerElement centered'>We Can Help You Make The Switch To Solor Power</h1>
             <p>Solar power provides one of the best ways to go green if you want a reliable alternative for power. 
               Sparrow Electric believes that solar power should be affordable and attainable by every homeowner. 
               Using solar energy to power your home is a responsible action that should be .ewarded and encouraged. 
-              That’s why we do everything to help people obtain financing, so they qualify to have residential solar panels installed on their homes. 
+              That's why we do everything to help people obtain financing, so they qualify to have residential solar panels installed on their homes. 
             </p>
         </div>
         <div id='section1Group2' className='centered'>

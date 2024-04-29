@@ -14,18 +14,18 @@ export default function Header() {
     <div className='Header'>
         <div className='Header--contact'>
             <div className='contact--grouping'>
-                <div>
+                <div className='contactInfo'>
                     <img src={phone} />
-                    <h3>385-244-0355</h3>
+                    <p>385-244-0355</p>
                 </div>
-                <div>
+                <div className='contactInfo'>
                     <img src={envelope} />
-                    <h3>Send Message</h3>
+                    <p>Send Message</p>
                 </div>
             </div>
             <div className='contact--grouping'>
-                <h3>Find A Location</h3>
-                <h3>Contact Us</h3>
+                <p>Find A Location</p>
+                <p>Contact Us</p>
             </div>
         </div>
         <div className='Header--nav'>
