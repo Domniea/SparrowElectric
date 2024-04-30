@@ -1,3 +1,6 @@
+
+
+/* --- Fonts --- */
 @font-face {
   font-family: Lato-Thin;
   src: url(./Assets/Lato/Lato-Thin.ttf);
@@ -12,9 +15,7 @@
   src: url(./Assets/Lato/Lato-Bold.ttf);
 }
 
-
-
-
+/* --- Global --- */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -28,6 +29,10 @@
 h1 {
   font-family: Lato-Bold;
 }
+
+
+
+/* --- General --- */
 
 .Body {
   width: 100vw;
