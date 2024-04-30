@@ -27,7 +27,7 @@ export default function WeCanHelp() {
             </p>
         </div>
         <div id='section1Group2' className='centered'>
-          <img src={residentialHome} />
+          <img class='WeCanHelp--img' src={residentialHome} />
         </div>
         <div id='section1Group3' className=''>
           <h4 className='headerElement' >Pull The Plug And Start Saving</h4>
@@ -60,7 +60,7 @@ export default function WeCanHelp() {
                 </p>
               </div>
               <div id='section1Group6' className='centered'>
-                <img src={peopleWorkingOnSolar} />
+                <img class='WeCanHelp--img' src={peopleWorkingOnSolar} />
               </div>
               <div id='section1Group7' className='centered'>
                 <h4 className='headerElement' >You Can Take Advantage Of Our Solar Process</h4>

@@ -10,11 +10,6 @@ import DropBox from '../DropBox'
 
 export default function FAQ() {
 
-  const Boobs = "Boobs"
-  function fire(){
-    console.log(Boobs)
-  }
-
   const faqData = [
     {
       title: 'Why Should I Purchase My Solar System Through Sparrow Electric?',
@@ -50,8 +45,7 @@ export default function FAQ() {
   return (
     <div id='FAQ'>
       <img id='FAQ--background' src={solorPannels}/>
-      <div className='container'>
-
+      <div id='FAQ--topContainer'>
         <div id='FAQ--group1'>
           <h2>We Can Help Get You Affordable Energy</h2>
           <p>

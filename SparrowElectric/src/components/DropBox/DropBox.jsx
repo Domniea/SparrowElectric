@@ -25,7 +25,7 @@ export default function DropBox(props) {
     <div className='Dropbox'>
         <div id='Dropbox--top'>
             <button onClick={() => toggleDropBox()}>
-                <img src={downArrow}/>
+                <img style={dropState ? {transform: 'rotate(180deg)'} : {}} src={downArrow}/>
             </button>
             <h2>{title}</h2>
         </div>

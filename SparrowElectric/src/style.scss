@@ -1,0 +1,101 @@
+@import './App.css';
+
+
+$iPadPro--ish: 1150px;
+
+
+
+@media ( max-width: $iPadPro--ish) {
+
+    /* --- We Can Help --- */
+    .WeCanHelp--container--primary {
+        display: block;
+    }
+
+    #section1Group1 > h1 {
+        text-align: center;
+    }
+
+    /* --- Our Services --- */
+
+    #servicesGridWrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        gap: 2%;
+      }
+      
+      .serviceImage {
+        height: 70%;
+        width: 100%;
+      }
+      
+      #OurServices--service0 {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+      }
+      
+      #OurServices--service1 {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+      }
+      
+      #OurServices--service2 {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+      }
+      
+      #OurServices--service3 {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+      }
+      
+      #OurServices--service4 {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+      }
+      
+      #OurServices--service5 {
+        grid-column: 2 / 3 ;
+        grid-row: 3 / 4;
+      }
+      
+      #OurServices--service6 {
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+      }
+      
+      #OurServices--service7 {
+        grid-column: 2 / 3;
+        grid-row: 4 / 5
+      }
+      
+      #OurServices--service8 {
+        grid-column: 1 / 2;
+        grid-row: 5 / 6
+      }
+      
+      #OurServices--service9 {
+        grid-column: 2 / 3;
+        grid-row: 5 / 6;
+      }
+      
+      #FAQ--group1 {
+        width: 100%
+      }
+
+      #FAQ--group2 {
+        width: 100%
+      }
+
+      #FAQ--topContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .Dropbox {
+        width: 100%;
+      }
+
+}
