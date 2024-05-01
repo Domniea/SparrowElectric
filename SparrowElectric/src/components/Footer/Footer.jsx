@@ -22,7 +22,7 @@ export default function Footer() {
 
         </div>
         <div id='Footer--base--nav'>
-            <p>© Sparrow Electric. All Rights Reserved.</p>
+            <p id='Footer--base--copywrite'>© Sparrow Electric. All Rights Reserved.</p>
             <p id='nudged'>Terms & Conditions | Privacy Policy</p>
             <div>
                 <img src={twitter}/>

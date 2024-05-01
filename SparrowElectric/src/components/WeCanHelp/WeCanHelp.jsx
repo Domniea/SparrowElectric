@@ -27,7 +27,7 @@ export default function WeCanHelp() {
             </p>
         </div>
         <div id='section1Group2' className='centered'>
-          <img class='WeCanHelp--img' src={residentialHome} />
+          <img className='WeCanHelp--img' src={residentialHome} />
         </div>
         <div id='section1Group3' className=''>
           <h4 className='headerElement' >Pull The Plug And Start Saving</h4>

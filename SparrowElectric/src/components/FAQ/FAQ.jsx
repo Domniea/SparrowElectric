@@ -81,7 +81,7 @@ export default function FAQ() {
             </div>
           </div>
           <Button
-            title='The Residential Solor Adventure'
+            title='The Residential Solar Adventure'
             bgColor='#21BA9E'
             border='white'
             padding='1% 2%'

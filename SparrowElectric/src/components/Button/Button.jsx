@@ -13,7 +13,7 @@ export default function Button(props) {
   return (
     <>
       <button
-        className={`Button ${classes} `}
+        className={`Button ${classes}  `}
         // className='Button'
         style={{
             backgroundColor: bgColor,

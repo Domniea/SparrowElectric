@@ -11,6 +11,7 @@ export default function GoSolar() {
       </div>
       <div id='GoSolar--right'>
              <Button
+                classes='testButton'
                 title='Lets Work Together'
                 bgColor='#FFFFFF'
                 border='3px solid #21BA9E'

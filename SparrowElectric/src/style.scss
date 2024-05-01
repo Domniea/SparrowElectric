@@ -2,6 +2,7 @@
 
 
 $iPadPro--ish: 1150px;
+$mobile: 430px;
 
 
 
@@ -98,4 +99,172 @@ $iPadPro--ish: 1150px;
         width: 100%;
       }
 
+      #GoSolar--right {
+        width: 100%;
+      }
+
+      #GoSolar--right > button {
+        width: 75%; 
+        margin-left: 25%;
+      }
+
+}
+
+@media (max-width: $mobile) {
+    #WeCanHelp--root {
+        padding: 4% 6%;
+        font-size: 1.25rem;
+        line-height: 100%;
+      }
+    #WeCanHelp--root h1{
+        font-size: 1.75rem;
+        padding: 5% 10%
+      }
+
+    #WeCanHelp--root h4 {
+        padding: 5% 10%;
+        font-size: 1.25rem;
+        line-height: 100%;
+      }
+      #servicesGridWrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(10, 1fr);
+        gap: 2%;
+      }
+      
+      .serviceImage {
+        height: 70%;
+        width: 100%;
+      }
+      
+      #OurServices--service0 {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+      }
+      
+      #OurServices--service1 {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+      }
+      
+      #OurServices--service2 {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+      }
+      
+      #OurServices--service3 {
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+      }
+      
+      #OurServices--service4 {
+        grid-column: 1 / 2;
+        grid-row: 5 / 6;
+      }
+      
+      #OurServices--service5 {
+        grid-column: 1 / 2 ;
+        grid-row: 6 / 7;
+      }
+      
+      #OurServices--service6 {
+        grid-column: 1 / 2;
+        grid-row: 7 / 8;
+      }
+      
+      #OurServices--service7 {
+        grid-column: 1 / 2;
+        grid-row: 8 / 9
+      }
+      
+      #OurServices--service8 {
+        grid-column: 1 / 2;
+        grid-row: 9 / 10
+      }
+      
+      #OurServices--service9 {
+        grid-column: 1 / 2;
+        grid-row: 10 / 11;
+      }
+      
+      #servicesGridWrapper {
+        padding-bottom: 150%;
+      }
+     
+      #FAQ--topContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      
+    //   #FAQ--group1 > p{
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: center;
+    //     align-items: center;
+    //   }
+
+
+    #FAQ--topContainer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        // /* align-items: center; */
+        padding: 4% 6%;
+    }
+
+    .Dropbox {
+        width: 95%;
+        font-size: .75rem;
+    }
+
+    .GoSolar {
+        flex-direction: column;
+        padding: 10%;
+    }
+    // #GoSolar--right {
+    //     width: 100%;
+    //   }
+
+    #Footer--top {
+        width: 100%;
+    }
+
+    #Footer--nav {
+        width: 80%;
+    }
+
+    #Footer--nav > p{
+        padding: 1%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #Footer--base--nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 8%;
+      }
+      #Footer--base--nav >div{
+        text-align: center;
+      }
+
+      #Footer--base--nav > #nudged {
+        text-align: center;
+        margin-left: 0%;
+        // margin-right: 5%;
+      }
+      
+      #Footer--base--copywrite {
+        text-align: center;
+        width: 60%;
+      }
+      
 }
