@@ -613,6 +613,7 @@ height: 100%;
 #Footer--top {
   font-family: Lato-Bold;
   /* font-size: 1.25rem; */
+  margin-right: 2%;
   width: 5%;
   text-align: center;
   letter-spacing: .3rem;
